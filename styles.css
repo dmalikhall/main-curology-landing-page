@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+
+nav {
+    width: 90%;    
+    padding: 14px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    flex: 1;
+}
+
+.start-trial-btn-mobile button {
+    display: block;
+    background: transparent;
+    border: 1px solid #332E54;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+    text-transform: uppercase;
+
+    font-size: .75rem;
+    line-height: 1.67;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #332E54;
+
+}
+
+.start-trial-btn button {
+    line-height: 1.67;
+    font-weight: bold;
+    font-size: .75rem;
+    letter-spacing: 1px;
+    padding: 10px 24px;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    background-color: #6f5cff;
+    display: none;
+}
+
+.hero-section {
+    background-color: #f7f5e9;
+}
+
+.hero-section .content {
+    display: block;
+}
+
+.hero-col-one {
+    padding: 2.5rem 2rem 2rem 2rem;
+}
+
+.hero-col-one h1 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1.2;
+    color: #1d1d44;
+    width: 100%;
+    max-width: 350px;
+}
+
+.hero-col-one .description {
+    margin-bottom: 1rem;
+    color: #1d1d44;
+    font-family: 'Skintype Text';
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.hero-col-one .stats-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0 1.5rem 0;
+
+    width: 100%;
+    max-width: 725px;
+    
+}
+
+.stats-container h3 {
+    color: #1d1d44;
+    font-weight: bold;
+    line-height: 1.1;
+    font-size: 30px;
+}
+
+.stats-container p {
+    color: #1d1d44;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.unlock-offer-btn {
+    text-align: center;
+}
+.unlock-offer-btn button {
+    line-height: 1.67;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-style: solid;
+    border-color: #332E54;
+    border-width: 1px;
+    min-height: 52px;
+    min-width: 208px;
+    max-width: 325px;
+    padding: 0 1.5rem;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    height: 64px;
+    border-radius: 2rem;
+    text-transform: inherit;
+    font-size: 1rem;
+    background-color: #6f5cff;
+}
+
+.unlock-offer-btn p {
+    font-size: 0.75rem;
+    line-height: 1.67;
+    color: #524D6E;
+    text-align: center;
+    margin: 1rem 0 0;
+    letter-spacing: .5px;
+
+}
+
+.background-hero-section {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: #e3e6fc;
+}
+
+.hero-img {
+    height: 100%;
+    max-width: 400px;
+    width: 100%;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #332E54;
+    padding: 4rem 1.5rem 4rem;
+}
+
+footer h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+footer .footer-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+footer .footer-links a {
+    text-decoration: underline;
+    font-size: 12px;
+    color: #C3C0CD;
+    margin-right: 1rem;
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #C3C0CD;
+    margin-right: 1rem;
+    padding: 0.2rem 0;
+
+}
+
+
+@media screen and (min-width: 775px) {
+    .hero-section .content {
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero-col-one {
+        width: 50%;
+        padding: 15px;
+       
+    }
+    .background-hero-section {
+        width: 50%;
+    }
+
+    .hero-img {
+        max-width: 100%;
+    }
+
+    footer {
+        padding: 128px 72px 3rem;
+    }
+
+    footer .footer-links a {
+        font-size: 14px;
+        margin-right: 1.5rem;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .hero-col-one {
+        padding: 2.5rem 2rem 2rem 2rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .hero-col-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .hero-col-one h1 {
+        max-width: 100%;
+        
+    }
+
+    .hero-col-one .stats-container {
+        max-width: 100%;
+    }
+
+    .unlock-offer-btn {
+        text-align: left;
+    }
+
+    .unlock-offer-btn p {
+        text-align: left;
+    }
+    
+}
+
+@media screen and (min-width: 990px) {
+    .hero-col-one h1 {
+        font-size: 50px;       
+    }
+
+    .hero-col-one {
+        padding: 2.5rem 3rem 1rem 3.5rem;
+    }
+
+    .stats-container h3 {
+        font-size: 40px;
+    }   
+}
+
+@media screen and (min-width: 1100px) {
+    .hero-col-one h1 {
+        font-size: 60px;       
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .hero-col-one h1 {
+        font-size: 77px;
+        
+    }
+
+    .stats-container h3 {
+        font-size: 40px;
+    }
+    .start-trial-btn-mobile button {
+        display: none;
+    }
+
+    .start-trial-btn button {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    nav {
+        padding-left:10%;
+        padding-right: 10%;
+    }
+
+    .hero-col-one {
+        padding-left:15%;
+        
+    }
+
+    .background-hero-section {
+        padding-right: 15%;
+    }
+
+    footer {
+        padding-left:15%;
+        padding-right: 15%;
+    }
+}
