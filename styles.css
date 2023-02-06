@@ -368,4 +368,45 @@ footer p {
     .desktop-section {
         height: 100%;
     }
+
+    nav {
+        padding-left:12%;
+        padding-right: 12%;
+    }
+
+    .hero-col-one {
+        padding-left:17%;
+        
+    }
+
+    .background-hero-section {
+        padding-right: 14%;
+    }
+
+    footer {
+        padding-left:17%;
+        padding-right: 17%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+
+    nav {
+        padding-left:13%;
+        padding-right: 13%;
+    }
+
+    .hero-col-one {
+        padding-left:18%;
+        
+    }
+
+    .background-hero-section {
+        padding-right: 15%;
+    }
+
+    footer {
+        padding-left:18%;
+        padding-right: 18%;
+    }
 }
