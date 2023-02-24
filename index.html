@@ -24,6 +24,12 @@
                 <button class="klaviyo_form_trigger">
                     <a href="#" class="klaviyo_form_trigger">Start free trial</a>
                 </button>
+                <script type="text/javascript">
+                    document.querySelector('.klaviyo_form_trigger').addEventListener('click', function (){
+                        window._klOnsite = window._klOnsite || []; 
+                        window._klOnsite.push(['openForm', 'YbWr2u']);
+                    });
+                </script>
             </div>
         </nav>
 
@@ -55,9 +61,9 @@
                     </div>
 
                     <div class="unlock-offer-btn">
-                        <button class="klaviyo_form_trigger"><a href="#">Unlock your free offer</a></button>
+                        <button class="klaviyo_form_trigger-2"><a href="#">Unlock your free offer</a></button>
                         <script type="text/javascript">
-                            document.querySelector('.klaviyo_form_trigger').addEventListener('click', function (){
+                            document.querySelector('.klaviyo_form_trigger-2').addEventListener('click', function (){
                                 window._klOnsite = window._klOnsite || []; 
                                 window._klOnsite.push(['openForm', 'YbWr2u']);
                             });
